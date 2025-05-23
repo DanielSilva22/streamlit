@@ -41,7 +41,7 @@ if mode == "Cemantix":
         submit = st.form_submit_button("🔍 Valider")
     if submit and guess:
         if guess not in embeddings:
-            st.error(f"Le mot "{guess}" est inconnu ou mal orthographié.")
+           st.error(f'Le mot "{guess}" est inconnu ou mal orthographié.')
         else:
             score = cosine(embeddings[guess], embeddings[target])
             st.success(f"{guess} → 🔥 Proximité : {score}%")
