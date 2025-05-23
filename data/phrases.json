@@ -1,0 +1,26 @@
+{
+  "fauxvrai": {
+    "phrase": "Le chat boit une chaussure.",
+    "intrus": "chaussure"
+  },
+  "troudememoire": {
+    "phrase": "Le ___ saute dans le ___",
+    "trous": [
+      "chien",
+      "lac"
+    ]
+  },
+  "pendu": {
+    "phrase": "Un ___ myst\u00e9rieux est arriv\u00e9.",
+    "mot": "message"
+  },
+  "fusion": {
+    "theme": [
+      "chien",
+      "chat",
+      "cheval",
+      "vache",
+      "cochon"
+    ]
+  }
+}
